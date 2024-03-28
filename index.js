@@ -6,8 +6,8 @@ const home = require("./routes/home");
 const app = express();
 app.use(express.json());
 
-app.get('/',(req,res)=>{
-    res.send('api is working')
+app.get('/', (req, res) => {
+    res.send('api is working not working ==============check build work or not ')
 })
 // Routes
 app.use("/home", home);
